@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <title>First Evaluation</title>
+    </head>   
+        <form name="Student Registration Form">
+            <font color="Indigo"><label for="reg"><u><b><h1 align=center>Student Registration Form</h1></u></b></label></font>
+            <fieldset style="background-color: Indigo;">
+		<font color ="white">
+		</br>
+                <label for="Fn"><h3><b>First name: </b></label>
+                <input type="text" name="Fn" id="Fn" size="30"> (max 30 char a-z and A-Z)
+                </br></br>
+
+                <label for="Ln"><b>Last name: </b></label>
+                <input type="text" name="Ln" id="Ln" size="30"> (max 30 char a-z and A-Z)
+                </br></br>
+
+		<label for="Dob"><b>Date Of Birth: </b></label>
+                <input type="date" name="Dob" id="Dob">
+		</br></br>
+
+                <label for="Em"><b>Email Id:</b></label>
+                <input type="text" name="Em" id="Em" size="20">
+                </br></br>
+
+                <label for="Mo"><b>Mobile Number: </b></label>
+                <input type="text" name="Mo" id="Mo" size="10"> (10 digit Number)
+                </br></br>
+
+                <label for ="gender"><b>Gender:</b></label>
+                <label for="M"><b>Male</b></label>
+                <input type="radio" name="gender" id="M" value="male">
+
+		<label for="F"><b>Female</b></label>
+                <input type="radio" name="gender" id="F" value="female">
+		</br></br>
+
+		<label for="Ad"><b>Address: </b></label>
+                <textarea name="Ad" id="Ad" row="5" cols="25">Enter the address</textarea>
+                </br></br>
+
+		<label for="city"><b>City: </b></label>
+                <input type="text" name="city" id="city" size="30"> (max 30 char a-z and A-Z)
+                </br></br>
+
+		<label for="pin"><b>Pin Code: </b></label>
+                <input type="text" name="pin" id="pin" size="6"> (6 digit number)
+                </br></br>
+
+		<label for="state"><b>State: </b></label>
+                <input type="text" name="state" id="state" size="30"> (max 30 char a-z and A-Z)
+                </br></br>
+
+		<label for="country"><b>Country: </b></label>
+                <input type="text" name="country" id="country" size="15">
+		</br>
+
+		<label for="hobbies"><b>Hobbies: </b></label>
+		<label for="drawing">Drawing</label>
+		<input type="checkbox" name="hobbies" id="drawing" value="yes">
+
+		<label for="singing">Singing</label>
+		<input type="checkbox" name="hobbies" id="singing" value="yes">
+
+		<label for="dancing">Dancing</label>
+		<input type="checkbox" name="hobbies" id="dancing" value="yes">
+
+		<label for="sketching">Sketching</label>
+		<input type="checkbox" name="hobbies" id="sketching" value="yes">
+
+		<label for="others">Others</label>
+		<input type="checkbox" name="hobbies" id="others" value="yes">
+		<textarea name="other" id="other" row="1" cols="10"></textarea>
+		</br></br>
+		
+
+		<label for="quali">QUALIFICATION: </label>
+		<table width = "50%" style="color: white;">
+                <tr>
+		    <th><u>Sl.no.</u></th>
+                    <th><u>Examination</u></th>
+                    <th><u>Board</u></th>
+                    <th><u>Percentage</u></th>
+		    <th><u>Year Of Passing</u></th>
+                </tr>
+                <tr>
+                    <th>1.</th>
+		    <th>Class X</th>
+                    <th><input type="text" name="Xboards" id="Xboards" size="10"></th>
+                    <th><input type="text" name="Xpercentage" id="Xpercentage" size="10"></th>
+		    <th><input type="text" name="Xyearofpassing" id="Xyearofpassing" size="10"></th>
+                </tr>
+		<tr>
+                    <th>2.</th>
+		    <th>Class XII</th>
+                    <th><input type="text" name="XIIboards" id="XIIboards" size="10"></th>
+                    <th><input type="text" name="XIIpercentage" id="XIIpercentage" size="10"></th>
+		    <th><input type="text" name="XIIyearofpassing" id="XIIyearofpassing" size="10"></th>
+                </tr>
+		<tr>
+                    <th>3.</th>
+		    <th>Graduation</th>
+                    <th><input type="text" name="Graboards" id="Graboards" size="10"></th>
+                    <th><input type="text" name="Grapercentage" id="Grapercentage" size="10"></th>
+		    <th><input type="text" name="Grayearofpassing" id="Grayearofpassing" size="10"></th>
+                </tr>
+		<tr>
+                    <th>4.</th>
+		    <th>Masters</th>
+                    <th><input type="text" name="Masboards" id="Masboards" size="10"></th>
+                    <th><input type="text" name="Maspercentage" id="Maspercentage" size="10"></th>
+		    <th><input type="text" name="Masyearofpassing" id="Masyearofpassing" size="10"></th>
+                </tr>
+		<tr>
+		    <th></th>
+                    <th></th>
+                    <th>(10 char max)</th>
+                    <th>(upto 2 decimals)</th>
+		    <th></th>
+                </tr>
+            	</table>
+		</br>
+		<label for ="course"><b>Course Applied For:</b></label>
+                <label for="BCA"><b>BCA</b></label>
+                <input type="radio" name="course" id="BCA" value="BCA">
+
+		<label for="bcom"><b>B.Com</b></label>
+                <input type="radio" name="course" id="bcom" value="bcom">
+
+		<label for="BSc"><b>B.Sc</b></label>
+                <input type="radio" name="course" id="bSc" value="bSc">
+
+		<label for="Ba"><b>B.A</b></label>
+                <input type="radio" name="course" id="ba" value="ba">
+		</br></br>
+		<center>
+		    <input type="submit" value="Submit">
+		    <input type="reset" value="Reset">
+		</center>
+		</h3>
+		</font>
+            </fieldset>
+        </form>
+	</body>
+</html>
